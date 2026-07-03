@@ -1,0 +1,5 @@
+best_valid_acc 0.6911
+concat_nframes 11
+in_dim 429
+n_train 22336
+n_valid 5584
