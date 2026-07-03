@@ -1,0 +1,5 @@
+valid_MSE 2.143439
+valid_RMSE 1.464049
+n_features 94
+n_train 2160
+n_valid 540
