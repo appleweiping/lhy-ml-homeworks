@@ -1,0 +1,4 @@
+best_test_acc 0.8540
+dataset FashionMNIST-as-sequence
+model self-attention (TransformerEncoder x2 + masked mean-pool)
+n_classes 10
