@@ -1,0 +1,4 @@
+best_test_acc 0.6512
+dataset CIFAR-10
+train_subset 10000
+epochs 8
