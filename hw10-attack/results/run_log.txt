@@ -1,0 +1,13 @@
+training target classifier...
+  epoch 0 loss 1.2669
+  epoch 1 loss 0.8847
+  epoch 2 loss 1.4583
+  epoch 3 loss 0.7615
+  epoch 4 loss 1.0839
+  epoch 5 loss 0.6980
+clean acc      0.5390
+FGSM acc       0.0200
+PGD-10 acc     0.0000
+MI-FGSM-10 acc 0.0000
+max L-inf pert 0.0314 (budget 0.0314)
+wrote adversarial_examples.png

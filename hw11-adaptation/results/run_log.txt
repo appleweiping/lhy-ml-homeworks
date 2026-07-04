@@ -1,0 +1,25 @@
+source torch.Size([8000, 3, 32, 32]) target torch.Size([4000, 3, 32, 32]) test(target) torch.Size([2000, 3, 32, 32])
+== source-only baseline ==
+  [src-only] epoch 0 lambda 0.000 target-acc 0.3700
+  [src-only] epoch 1 lambda 0.000 target-acc 0.3930
+  [src-only] epoch 2 lambda 0.000 target-acc 0.4750
+  [src-only] epoch 3 lambda 0.000 target-acc 0.4545
+  [src-only] epoch 4 lambda 0.000 target-acc 0.4535
+  [src-only] epoch 5 lambda 0.000 target-acc 0.4290
+  [src-only] epoch 6 lambda 0.000 target-acc 0.3960
+  [src-only] epoch 7 lambda 0.000 target-acc 0.4820
+  [src-only] epoch 8 lambda 0.000 target-acc 0.4055
+  [src-only] epoch 9 lambda 0.000 target-acc 0.5100
+== DaNN domain adaptation ==
+  [DANN] epoch 0 lambda 0.000 target-acc 0.3995
+  [DANN] epoch 1 lambda 0.462 target-acc 0.4520
+  [DANN] epoch 2 lambda 0.762 target-acc 0.5060
+  [DANN] epoch 3 lambda 0.905 target-acc 0.5450
+  [DANN] epoch 4 lambda 0.964 target-acc 0.4910
+  [DANN] epoch 5 lambda 0.987 target-acc 0.4610
+  [DANN] epoch 6 lambda 0.995 target-acc 0.4885
+  [DANN] epoch 7 lambda 0.998 target-acc 0.5525
+  [DANN] epoch 8 lambda 0.999 target-acc 0.5880
+  [DANN] epoch 9 lambda 1.000 target-acc 0.5445
+target acc: source-only 0.5100 | DaNN 0.5445 | gain +0.0345
+-> D:\Project\deep-learning\lhy-ml-homeworks\hw11-adaptation\results/metrics.txt

@@ -1,0 +1,17 @@
+train(normal) torch.Size([5000, 3, 32, 32]) test torch.Size([1000, 3, 32, 32]) anomaly_rate 0.50
+epoch  0 | train MSE 0.15420 | test ROC-AUC 0.5625
+epoch  1 | train MSE 0.07119 | test ROC-AUC 0.5965
+epoch  2 | train MSE 0.05161 | test ROC-AUC 0.6124
+epoch  3 | train MSE 0.03533 | test ROC-AUC 0.6070
+epoch  4 | train MSE 0.02986 | test ROC-AUC 0.6115
+epoch  5 | train MSE 0.02673 | test ROC-AUC 0.6130
+epoch  6 | train MSE 0.02361 | test ROC-AUC 0.6133
+epoch  7 | train MSE 0.02164 | test ROC-AUC 0.6195
+epoch  8 | train MSE 0.01980 | test ROC-AUC 0.6307
+epoch  9 | train MSE 0.01943 | test ROC-AUC 0.6204
+epoch 10 | train MSE 0.01772 | test ROC-AUC 0.6191
+epoch 11 | train MSE 0.01705 | test ROC-AUC 0.6251
+epoch 12 | train MSE 0.01655 | test ROC-AUC 0.6163
+epoch 13 | train MSE 0.01695 | test ROC-AUC 0.6193
+epoch 14 | train MSE 0.01496 | test ROC-AUC 0.6203
+final test ROC-AUC 0.6203 -> D:\Project\deep-learning\lhy-ml-homeworks\hw08-autoencoder\results/metrics.txt

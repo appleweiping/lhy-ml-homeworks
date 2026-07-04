@@ -1,0 +1,23 @@
+loading real Multi30k (de->en)...
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+train pairs 3000 valid 1014 | de-vocab 1716 en-vocab 1721
+D:\Project\_csdiy\.venv-ml\Lib\site-packages\torch\nn\modules\activation.py:1336: UserWarning: Support for mismatched key_padding_mask and attn_mask is deprecated. Use same type for both instead.
+  key_padding_mask = F._canonical_mask(
+D:\Project\_csdiy\.venv-ml\Lib\site-packages\torch\nn\modules\transformer.py:529: UserWarning: The PyTorch API of nested tensors is in prototype stage and will change in the near future. We recommend specifying layout=torch.jagged when constructing a nested tensor, as this layout receives active development, has better operator coverage, and works with torch.compile. (Triggered internally at C:\actions-runner\_work\pytorch\pytorch\aten\src\ATen\NestedTensorImpl.cpp:182.)
+  output = torch._nested_tensor_from_mask(
+epoch  0 | train loss 5.5972 | valid tok-acc 0.2707 BLEU(subset) 0.0128
+epoch  1 | train loss 4.6526 | valid tok-acc 0.3418 BLEU(subset) 0.0479
+epoch  2 | train loss 4.2765 | valid tok-acc 0.3802 BLEU(subset) 0.0749
+epoch  3 | train loss 4.0233 | valid tok-acc 0.4056 BLEU(subset) 0.0855
+epoch  4 | train loss 3.8296 | valid tok-acc 0.4227 BLEU(subset) 0.0966
+epoch  5 | train loss 3.6645 | valid tok-acc 0.4325 BLEU(subset) 0.1022
+epoch  6 | train loss 3.5200 | valid tok-acc 0.4454 BLEU(subset) 0.1192
+epoch  7 | train loss 3.3825 | valid tok-acc 0.4476 BLEU(subset) 0.1048
+epoch  8 | train loss 3.2743 | valid tok-acc 0.4569 BLEU(subset) 0.1440
+epoch  9 | train loss 3.1526 | valid tok-acc 0.4642 BLEU(subset) 0.1390
+epoch 10 | train loss 3.0425 | valid tok-acc 0.4660 BLEU(subset) 0.1423
+epoch 11 | train loss 2.9408 | valid tok-acc 0.4712 BLEU(subset) 0.1407
+epoch 12 | train loss 2.8442 | valid tok-acc 0.4777 BLEU(subset) 0.1483
+epoch 13 | train loss 2.7474 | valid tok-acc 0.4757 BLEU(subset) 0.1537
+epoch 14 | train loss 2.6578 | valid tok-acc 0.4816 BLEU(full) 0.1560
+final valid tok-acc 0.4816 BLEU 0.1560 -> D:\Project\deep-learning\lhy-ml-homeworks\hw05-transformer\results

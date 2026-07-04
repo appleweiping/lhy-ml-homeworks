@@ -1,0 +1,15 @@
+loading Omniglot (real, auto-download)...
+5-way 1-shot | meta-train classes 800 meta-test classes 164
+baseline (random init + same inner adaptation)...
+baseline meta-test acc 0.3972
+meta-training MAML...
+  iter   0 | meta-loss 3.2989 | meta-test acc 0.4220
+  iter  50 | meta-loss 1.5678 | meta-test acc 0.4868
+  iter 100 | meta-loss 1.1785 | meta-test acc 0.5216
+  iter 150 | meta-loss 1.1773 | meta-test acc 0.5740
+  iter 200 | meta-loss 1.0268 | meta-test acc 0.6204
+  iter 250 | meta-loss 1.1779 | meta-test acc 0.6248
+  iter 299 | meta-loss 0.8014 | meta-test acc 0.6620
+
+MAML meta-test 5-way 1-shot acc 0.6512  (baseline 0.3972, gain +0.2540)
+-> D:\Project\deep-learning\lhy-ml-homeworks\hw15-meta\results/metrics.txt

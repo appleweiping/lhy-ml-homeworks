@@ -1,0 +1,9 @@
+epoch  0 | train loss 1.9637 acc 0.2639 | test loss 1.6650 acc 0.3792 | best 0.3792
+epoch  1 | train loss 1.6651 acc 0.3726 | test loss 1.6584 acc 0.3892 | best 0.3892
+epoch  2 | train loss 1.5342 acc 0.4244 | test loss 1.5173 acc 0.4364 | best 0.4364
+epoch  3 | train loss 1.4087 acc 0.4789 | test loss 1.2732 acc 0.5528 | best 0.5528
+epoch  4 | train loss 1.2870 acc 0.5308 | test loss 1.2222 acc 0.5480 | best 0.5528
+epoch  5 | train loss 1.1737 acc 0.5766 | test loss 1.1140 acc 0.5976 | best 0.5976
+epoch  6 | train loss 1.0891 acc 0.6091 | test loss 1.0842 acc 0.6116 | best 0.6116
+epoch  7 | train loss 1.0343 acc 0.6285 | test loss 0.9804 acc 0.6512 | best 0.6512
+BEST test acc 0.6512 -> D:\Project\deep-learning\lhy-ml-homeworks\hw03-cnn\results/metrics.txt

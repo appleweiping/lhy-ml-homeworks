@@ -1,0 +1,15 @@
+Permuted-MNIST: 4 tasks, 10000 train / 2000 test each
+== naive SGD (fine-tuning) ==
+  [SGD] after task 0: avg over seen 0.9040  (per-task [0.904])
+  [SGD] after task 1: avg over seen 0.8950  (per-task [0.868 0.922])
+  [SGD] after task 2: avg over seen 0.8243  (per-task [0.705 0.848 0.92 ])
+  [SGD] after task 3: avg over seen 0.7477  (per-task [0.573 0.662 0.84  0.916])
+== EWC ==
+  [EWC] after task 0: avg over seen 0.9080  (per-task [0.908])
+  [EWC] after task 1: avg over seen 0.9055  (per-task [0.895 0.916])
+  [EWC] after task 2: avg over seen 0.8958  (per-task [0.87  0.898 0.919])
+  [EWC] after task 3: avg over seen 0.8914  (per-task [0.876 0.89  0.896 0.904])
+
+final avg acc:  SGD 0.7477 | EWC 0.8914
+forgetting:     SGD 0.2235 | EWC 0.0270 (lower is better)
+-> D:\Project\deep-learning\lhy-ml-homeworks\hw14-lifelong\results/metrics.txt

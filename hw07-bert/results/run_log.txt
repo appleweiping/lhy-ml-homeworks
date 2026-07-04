@@ -1,0 +1,31 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/37 [00:00<?, ?it/s]Loading weights: 100%|██████████| 37/37 [00:00<00:00, 2090.68it/s]
+[transformers] [1mBertForQuestionAnswering LOAD REPORT[0m from: prajjwal1/bert-tiny
+Key                                        | Status     | 
+-------------------------------------------+------------+-
+cls.predictions.transform.dense.weight     | UNEXPECTED | 
+cls.predictions.transform.LayerNorm.bias   | UNEXPECTED | 
+cls.predictions.transform.LayerNorm.weight | UNEXPECTED | 
+cls.seq_relationship.weight                | UNEXPECTED | 
+bert.pooler.dense.bias                     | UNEXPECTED | 
+cls.predictions.decoder.weight             | UNEXPECTED | 
+cls.predictions.transform.dense.bias       | UNEXPECTED | 
+cls.seq_relationship.bias                  | UNEXPECTED | 
+cls.predictions.bias                       | UNEXPECTED | 
+cls.predictions.decoder.bias               | UNEXPECTED | 
+bert.pooler.dense.weight                   | UNEXPECTED | 
+qa_outputs.weight                          | MISSING    | 
+qa_outputs.bias                            | MISSING    | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+- MISSING:	those params were newly initialized because missing from the checkpoint. Consider training on your downstream task.
+epoch 0 | train loss 1.8810 | valid EM 0.1867 F1 0.2143
+epoch 1 | train loss 1.1229 | valid EM 0.2733 F1 0.2800
+epoch 2 | train loss 1.0313 | valid EM 0.3300 F1 0.3314
+epoch 3 | train loss 0.9632 | valid EM 0.4133 F1 0.4143
+epoch 4 | train loss 0.8174 | valid EM 0.6567 F1 0.6576
+epoch 5 | train loss 0.6882 | valid EM 0.6333 F1 0.6343
+epoch 6 | train loss 0.5418 | valid EM 0.9567 F1 0.9567
+epoch 7 | train loss 0.4885 | valid EM 0.9033 F1 0.9033
+final valid EM 0.9033 F1 0.9033 -> D:\Project\deep-learning\lhy-ml-homeworks\hw07-bert\results

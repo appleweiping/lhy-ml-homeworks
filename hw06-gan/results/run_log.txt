@@ -1,0 +1,9 @@
+epoch 1 step  100 | D 0.3551 | G 8.0461
+epoch 2 step  200 | D 0.8990 | G 2.7028
+epoch 3 step  300 | D 0.7303 | G 1.6251
+epoch 4 step  400 | D 0.7931 | G 3.4440
+epoch 5 step  500 | D 0.5961 | G 1.8039
+epoch 6 step  600 | D 0.8683 | G 4.7547
+epoch 7 step  700 | D 0.5683 | G 2.6162
+pixel |mean gap| 0.0056 |std gap| 0.0271 | feat |mean gap| 0.1273 |std gap| 0.6904
+wrote samples.png, losses.png, metrics.txt -> D:\Project\deep-learning\lhy-ml-homeworks\hw06-gan\results
