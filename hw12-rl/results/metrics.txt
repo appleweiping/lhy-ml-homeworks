@@ -1,0 +1,5 @@
+final_last50_mean_return 480.9
+best_50window 500.0
+max_return 500
+episodes 800
+algo REINFORCE+baseline
