@@ -1,0 +1,4 @@
+test_ROC_AUC 0.6203
+normal_class 0
+n_train_normal 5000
+n_test 1000

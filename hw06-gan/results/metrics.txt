@@ -1,0 +1,9 @@
+dataset MNIST
+final_D_loss 0.6540
+final_G_loss 2.1376
+pixel_mean_gap 0.0056
+pixel_std_gap 0.0271
+feat_mean_gap 0.1273
+feat_std_gap 0.6904
+train_steps 744
+epochs 8

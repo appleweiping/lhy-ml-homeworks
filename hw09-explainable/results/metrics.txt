@@ -1,0 +1,4 @@
+deletion_topk_prob_drop 0.3065
+deletion_random_prob_drop 0.2486
+attribution_valid True
+methods saliency,smooth_grad,integrated_grad,occlusion
