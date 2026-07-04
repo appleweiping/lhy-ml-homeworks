@@ -1,0 +1,5 @@
+valid_EM 0.9033
+valid_F1 0.9033
+model prajjwal1/bert-tiny
+n_train 1200
+n_valid 300

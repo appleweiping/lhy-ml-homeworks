@@ -1,0 +1,32 @@
+Q: Where does Sven live
+gold: Riga
+pred: riga
+
+Q: Since which year has Petra lived in Bogota
+gold: 1977
+pred: 1977
+
+Q: What is the job of Petra
+gold: pilot
+pred: pilot
+
+Q: Since which year has Rosa lived in Amman
+gold: 1999
+pred: 1999
+
+Q: Where does Rosa live
+gold: Riga
+pred: riga
+
+Q: What is the job of Tara
+gold: artist
+pred: artist
+
+Q: What is the job of Oscar
+gold: nurse
+pred: nurse
+
+Q: Since which year has Sven lived in Sofia
+gold: 2006
+pred: 2006
+
