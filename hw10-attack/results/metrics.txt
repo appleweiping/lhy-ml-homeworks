@@ -1,0 +1,6 @@
+clean_acc 0.5390
+fgsm_acc 0.0200
+pgd10_acc 0.0000
+mifgsm10_acc 0.0000
+eps 0.03137
+max_linf 0.03137
