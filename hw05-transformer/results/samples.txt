@@ -1,0 +1,32 @@
+DE:  eine gruppe von männern <unk> <unk> auf einen <unk>
+REF: a group of men are loading <unk> onto a truck
+HYP: a group of men are working on a <unk> of a <unk>
+
+DE:  ein mann schläft in einem grünen raum auf einem <unk> .
+REF: a man sleeping in a green room on a couch .
+HYP: a man in a green <unk> green jacket is sleeping on a green mat .
+
+DE:  ein junge mit <unk> sitzt auf den schultern einer frau .
+REF: a boy wearing <unk> sits on a woman ' s shoulders .
+HYP: a young boy with a <unk> is sitting on a <unk> .
+
+DE:  zwei männer bauen eine blaue <unk> auf einem <unk> see auf
+REF: two men setting up a blue ice fishing hut on an <unk> over lake
+HYP: two men are waiting on a <unk>
+
+DE:  ein mann mit <unk> <unk> , der eine rote <unk> trägt , sitzt in einem kleinen boot .
+REF: a <unk> man wearing a red life jacket is sitting in a small boat .
+HYP: a man wearing a red jacket is sitting in a small child wearing a small child is sitting in a small child .
+
+DE:  eine frau in einem rotem mantel , die eine <unk> aus asien <unk> handtasche in einem blauen <unk> hält , springt für
+REF: a lady in a red coat , holding a <unk> hand bag <unk> of asian <unk> , jumping off the ground for
+HYP: a woman in blue coat , is holding a <unk> , holds a <unk> , holds a <unk> , holds a <unk> , holds
+
+DE:  ein brauner hund rennt dem schwarzen hund hinterher .
+REF: a brown dog is running after the black dog .
+HYP: a brown dog runs across the ocean .
+
+DE:  ein kleiner junge mit einem <unk> - trikot schwingt einen <unk> in richtung eines <unk> <unk> .
+REF: a young boy wearing a <unk> jersey swings a baseball bat at an <unk> <unk> .
+HYP: a little boy wearing a <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk>
+

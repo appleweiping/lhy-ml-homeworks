@@ -33,7 +33,7 @@ each HW's `results/` for logs, metrics, and figures.
 | 2 | Classification (BN-MLP) | phoneme frames (official layout) | frame acc **0.69** |
 | 3 | CNN image classification | CIFAR-10 | test acc **0.6512** |
 | 4 | Self-attention | FashionMNIST-as-sequence | test acc **0.8540** |
-| 5 | Transformer (NMT) | Multi30k de→en (real) | BLEU-4 **{{HW5_BLEU}}** |
+| 5 | Transformer (NMT) | Multi30k de→en (real) | BLEU-4 **0.1560** |
 | 6 | GAN (DCGAN) | MNIST | pixel mean/std gap **0.006 / 0.027**; sample grid |
 | 7 | BERT extractive QA | multi-entity QA + real bert-tiny | EM **0.9033** / F1 **0.9033** |
 | 8 | Autoencoder anomaly det. | CIFAR-10 (airplane=normal) | ROC-AUC **0.6203** |

@@ -1,0 +1,6 @@
+dataset Multi30k de->en
+valid_token_acc 0.4816
+valid_BLEU4 0.1560
+src_vocab 1716
+tgt_vocab 1721
+n_train 3000
