@@ -35,15 +35,15 @@ each HW's `results/` for logs, metrics, and figures.
 | 4 | Self-attention | FashionMNIST-as-sequence | test acc **0.8540** |
 | 5 | Transformer (NMT) | Multi30k de→en (real) | BLEU-4 **{{HW5_BLEU}}** |
 | 6 | GAN (DCGAN) | MNIST | pixel mean/std gap **0.006 / 0.027**; sample grid |
-| 7 | BERT extractive QA | procedural SQuAD-style + real bert-tiny | EM **{{HW7_EM}}** / F1 **{{HW7_F1}}** |
+| 7 | BERT extractive QA | multi-entity QA + real bert-tiny | EM **0.9033** / F1 **0.9033** |
 | 8 | Autoencoder anomaly det. | CIFAR-10 (airplane=normal) | ROC-AUC **0.6203** |
 | 9 | Explainable AI | CIFAR-10 CNN | deletion top-k **0.307** > random **0.249** ✓ |
 | 10 | Adversarial attack | CIFAR-10 | clean **0.539** → PGD-10 **0.000** |
-| 11 | Domain adaptation (DaNN) | CIFAR-10 (RGB→edge domain) | target acc: src-only **{{HW11_SRC}}** → DaNN **{{HW11_DANN}}** |
+| 11 | Domain adaptation (DaNN) | CIFAR-10 (RGB→edge domain) | target acc: src-only **0.5100** → DaNN **0.5445** |
 | 12 | RL (policy gradient) | CartPole (exact physics) | last-50 return **480.9** / 500 |
 | 13 | Network compression (KD+prune) | FashionMNIST | **54.5×** smaller; KD/prune curve |
 | 14 | Life-long (EWC) | Permuted-MNIST | forgetting **0.027** (EWC) vs **0.224** (SGD) |
-| 15 | Meta learning (MAML) | Omniglot 5-way 1-shot | MAML **{{HW15_MAML}}** vs baseline **{{HW15_BASE}}** |
+| 15 | Meta learning (MAML) | Omniglot 5-way 1-shot | MAML **0.6512** vs baseline **0.3972** |
 
 Figures: `hw06-gan/results/samples.png` (generated digits),
 `hw09-explainable/results/attributions.png` (4 attribution methods),
