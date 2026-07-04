@@ -1,0 +1,7 @@
+dataset Omniglot
+setting 5-way 1-shot
+baseline_acc 0.3972
+maml_acc 0.6512
+meta_gain +0.2540
+inner_steps 3
+meta_iters 300

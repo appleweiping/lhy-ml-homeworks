@@ -1,0 +1,12 @@
+dataset FashionMNIST
+teacher_params 390858
+student_params 7172
+compression_ratio 54.50
+teacher_acc 0.8966
+student_scratch_acc 0.8262
+student_kd_acc 0.8439
+kd_gain +0.0177
+prune_30pct_acc 0.8415 density 0.714
+prune_50pct_acc 0.8178 density 0.524
+prune_70pct_acc 0.6946 density 0.334
+prune_90pct_acc 0.1232 density 0.144

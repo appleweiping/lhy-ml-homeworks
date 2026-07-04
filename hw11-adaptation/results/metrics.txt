@@ -1,0 +1,3 @@
+source_only_target_acc 0.5100
+dann_target_acc 0.5445
+adaptation_gain +0.0345
