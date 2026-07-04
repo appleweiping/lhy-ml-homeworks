@@ -1,0 +1,7 @@
+benchmark Permuted-MNIST
+n_tasks 4
+sgd_final_avg_acc 0.7477
+ewc_final_avg_acc 0.8914
+sgd_forgetting 0.2235
+ewc_forgetting 0.0270
+ewc_lambda 2000.0
